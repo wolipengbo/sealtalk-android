@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dis_show_no_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/No_friends"
+        android:textColor="@color/group_list_gray"
+        android:visibility="gone" />
+
+
+    <ListView
+        android:id="@+id/dis_friendlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@null"
+        ></ListView>
+
+    <TextView
+        android:id="@+id/dis_dialog"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_gravity="center"
+        android:background="@drawable/rc_bg_toast"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="30.0dip"
+        android:visibility="invisible" />
+
+    <cn.rongcloud.im.server.pinyin.SideBar
+        android:id="@+id/dis_sidrbar"
+        android:layout_width="30.0dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center" />
+
+</FrameLayout>

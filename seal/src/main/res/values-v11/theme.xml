@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/de_title_bg</item>
+        <item name="android:titleTextStyle">@style/ActionBarTextStyle</item>
+        <item name="background">@color/de_actionbar_bg</item>
+        <item name="titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+
+
+</resources>

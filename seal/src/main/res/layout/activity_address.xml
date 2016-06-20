@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/Search"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/show_no_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/No_friends"
+            android:textColor="@color/group_list_gray"
+            android:layout_gravity="center"
+            />
+
+
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:divider="@null"></ListView>
+
+        <TextView
+            android:id="@+id/group_dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/rc_bg_toast"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible" />
+
+        <cn.rongcloud.im.server.pinyin.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="20.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AsyncImageView">
+
+        <attr name="RCMinShortSideSize" format="dimension"/>
+        <attr name="RCCornerRadius" format="dimension"/>
+        <attr name="RCMask" format="boolean"/>
+
+        <attr name="RCShape">
+            <flag name="square" value="0" />
+            <flag name="circle" value="1" />
+        </attr>
+
+        <attr name="RCDefDrawable" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="InputView">
+        <attr name="RCStyle">
+            <enum name="SCE" value="0x123" />
+            <enum name="CES" value="0x231" />
+            <enum name="ECS" value="0x321" />
+            <enum name="CSE" value="0x213" />
+            <enum name="SC" value="0x120" />
+            <enum name="CS" value="0x21" />
+            <enum name="EC" value="0x320" />
+            <enum name="CE" value="0x023" />
+            <enum name="C" value="0x020" />
+        </attr>
+    </declare-styleable>
+
+</resources>

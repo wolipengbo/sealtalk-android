@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/de_action_white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginTop="47dp"
+        android:src="@drawable/de_ic_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/version_number"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_update_log"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/update_log"
+            style="@style/DemoTextStyleBigBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/update_log" />
+
+        <ImageView
+            android:id="@+id/iv_update_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/update_log"
+            android:src="@drawable/de_ic_new"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/de_merge_view" />
+
+    <RelativeLayout
+        android:id="@+id/rl_function_introduce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/function_introduce"
+            style="@style/DemoTextStyleBigBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/function_introduce" />
+
+        <ImageView
+            android:id="@+id/function_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/function_introduce"
+            android:src="@drawable/de_ic_new" />
+    </RelativeLayout>
+
+    <include layout="@layout/de_merge_view" />
+
+    <RelativeLayout
+        android:id="@+id/rl_dv_document"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/dv_document"
+            style="@style/DemoTextStyleBigBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/dv_document" />
+
+        <ImageView
+            android:id="@+id/iv_dv_document"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/dv_document"
+            android:src="@drawable/de_ic_new"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/de_merge_view" />
+
+    <RelativeLayout
+        android:id="@+id/rl_rongcloud_web"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/rongcloud_web"
+            style="@style/DemoTextStyleBigBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/rongcloud_web" />
+
+        <ImageView
+            android:id="@+id/iv_rongcloud_web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/rongcloud_web"
+            android:src="@drawable/de_ic_new"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/de_merge_view" />
+
+    <RelativeLayout
+        android:id="@+id/rl_new_version_update"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/new_version_update"
+            style="@style/DemoTextStyleBigBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/new_version_update" />
+
+        <TextView
+            android:id="@+id/version_new"
+            style="@style/DemoTextStyleMiddle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/new_version_update" />
+    </RelativeLayout>
+
+    <include layout="@layout/de_merge_view" />
+
+
+</LinearLayout>

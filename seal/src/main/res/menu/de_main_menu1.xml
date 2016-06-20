@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_conversation"
+        android:icon="@drawable/de_ic_add"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/add_item2"
+                android:icon="@drawable/de_btn_main_groups"
+                android:title="@string/add_select_group" />
+            <!--<item
+                android:id="@+id/add_item3"
+                android:icon="@drawable/de_btn_main_contacts"
+                android:title="扫一扫" />-->
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/de_ic_set"
+        android:orderInCategory="100"
+        android:title="@string/set_set"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <item
+                android:id="@+id/set_item1"
+                android:icon="@drawable/de_btn_main_personal_information"
+                android:title="@string/set_personal_information" />
+            <item
+                android:id="@+id/set_item2"
+                android:icon="@drawable/de_btn_main_news_reminded"
+                android:title="@string/set_news_reminded" />
+            <item
+                android:id="@+id/set_item3"
+                android:icon="@drawable/de_btn_main_privacy"
+                android:title="@string/set_privacy" />
+            <item
+                android:id="@+id/set_item4"
+                android:icon="@drawable/de_btn_main_rongcloud"
+                android:title="@string/set_rongcloud" />
+            <item
+                android:id="@+id/set_item5"
+                android:icon="@drawable/de_btn_main_sign_out"
+                android:title="@string/set_logout" />
+        </menu>
+    </item>
+</menu>

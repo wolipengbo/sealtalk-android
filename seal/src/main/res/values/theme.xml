@@ -1,0 +1,38 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+        <!--set system bar-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
+    <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/de_title_bg</item>
+        <item name="android:titleTextStyle">@style/ActionBarTextStyle</item>
+        <item name="background">@color/de_actionbar_bg</item>
+        <item name="titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+
+    <style name="ActionBarTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppInputTheme" parent="AppTheme">
+        <item name="android:textColor">@color/de_actionbar_bg</item>
+    </style>
+
+    <style name="RCTheme.ActionBar">
+        <item name="android:background">@color/de_action_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="RCTheme.ActionBar.Item">
+        <item name="android:padding">3dp</item>
+    </style>
+   
+</resources>

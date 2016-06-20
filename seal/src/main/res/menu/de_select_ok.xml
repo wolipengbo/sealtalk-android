@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ok"
+        android:icon="@drawable/de_username_ok"
+        android:orderInCategory="100"
+        android:title="确定"
+        app:showAsAction="ifRoom|withText" />
+</menu>

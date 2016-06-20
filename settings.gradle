@@ -1,1 +1,1 @@
-include ':seal', ':IMKit'
+include ':seal', ':IMKit_v2_6_3_with_voip'
